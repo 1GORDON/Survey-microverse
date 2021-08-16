@@ -23,3 +23,7 @@ body {
 .white-text {
   color: whitesmoke;
 }
+
+.select {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
