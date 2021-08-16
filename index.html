@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title">
+            <h1>Survey Form</h1>
+        </title>
+        <meta charset="UTF-8" name="viewport" content="width=device, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <p id="description" class="white-text">Thank You, For Visiting Our Drink Survey Page.</p>
+       <hr> <br><br>
+       <form action="" id="survey-form">
+          <fieldset id="box"> 
+            <label id="name-label" for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+            
+            <label id="email-label" for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Email address"><br><br>
+            
+            <label id="number-label" for="number">Number:</label><br>
+            <input type="text" id="number" name="number" placeholder="Number"><br>
+            <br>
+            <label for="drinks">Choose a drink:</label>
+            <select name="dropdown" id="dropdown" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <option value="water">Water</option>
+                <option value="wine">Wine</option>
+                <option value="beer">Beer</option>
+                <option value="juice">Fresh juice</option>
+            </select>
+            <br><br>
+
+            <label for="temperature">Prefered temperature:</label><br>
+            <input type="radio" id="warm" name="temperature" value="warm">
+            <label for="warm">Warm</label><br>
+            <input type="radio" id="room-temperature" name="temperature" value="room-temperature">
+            <label for="room-temperature">Room Temperature</label><br>
+            <input type="radio" id="cold" name="temperature" value="cold">
+            <label for="cold">Cold</label>
+            <br><br>
+
+            <label for="vessel">Prefered vessel:</label><br>
+            <input type="checkbox" id="vessel1" name="vessel1" value="Bottle">
+            <label for="vessel1">Drinking from a Bottle</label><br>
+            <input type="checkbox" id="vessel2" name="vessel2" value="Glass">
+            <label for="vehicle2">Drinking from a Glass</label><br>
+            <br>
+
+            <textarea id="comment" name="comment">Enter your comment here...</textarea><br>
+
+            <br><input type="submit" value="Submit">
+          </fieldset>    
+      </form> 
+
+</html>
